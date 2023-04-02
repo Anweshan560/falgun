@@ -1,0 +1,35 @@
+body{
+    background-color:red;
+}
+
+ /* ul{  */
+
+    /* background-color: red; */
+ /* } */
+/* li{ display: inline; */
+    
+/* } */
+
+a{
+    color: white;
+    text-decoration:none ; 
+}
+.nav-link{
+     
+     display: inline;
+     color: blue;   
+     margin-right: 10em;
+    
+}
+.nav-bar{
+ font-weight: bold;
+ display: inline;
+ margin-right: 10em;
+}
+.active{
+    color: aqua;    
+}
+.half{
+    width: 50%;
+}
+

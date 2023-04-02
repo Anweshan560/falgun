@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        .box{
+            border: 1px solid;
+            height: 100px;
+            width: 100px;
+        }
+        .box:first-child{
+            background-color: red;
+        }
+        .box:not(:first-child){
+            background-color: green;
+
+        }
+
+        button:hover{
+            background-color: red;
+            transition: all 2s;
+            transform: translateX(10px);
+            transform: all .5s;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+
+<button>
+    login
+
+</button>
+
+
+
+
+    
+</body>
+</html>

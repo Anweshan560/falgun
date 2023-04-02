@@ -1,0 +1,16 @@
+body{
+    background-color: green;
+}
+ul{color: grey;}
+        h3{
+            color: orange;
+        }
+        li{display: inline;}
+        a{
+            text-decoration: none;
+            color: black;
+
+        }
+        a.datascience{
+            color: green;
+        }
